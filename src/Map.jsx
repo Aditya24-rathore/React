@@ -7,7 +7,19 @@ const Map = () => {
         age:20,
         city:"Bhopal",
         contact:9087267829
-    }]
+    },{
+        name:"aditya",
+        age:20,
+        city:"Bhopal",
+        contact:9087267829
+    },{
+        name:"aditya",
+        age:20,
+        city:"Bhopal",
+        contact:9087267829
+    },
+   
+]
   return (
     <>
     <ul>
@@ -20,7 +32,7 @@ const Map = () => {
 <ul>
         <h1>Data</h1>
         {data.map((e1 , index1)=>(
-            <li key={index1}> {e1.name}</li>
+            <li key={e1.id}>My name is {e1.name} and i'm {e1.age} years old</li>
             
         ))}
     </ul>

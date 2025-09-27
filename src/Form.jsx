@@ -18,7 +18,9 @@ const Form = () => {
       if(name==""){
         alert("enter name")
       }
-      else{alert("Registration Done")}  
+      else{
+        localStorage.setItem()
+      }  
     }
   return (
     <>

@@ -32,7 +32,8 @@ const Map = () => {
 <ul>
         <h1>Data</h1>
         {data.map((e1 , index1)=>(
-            <li key={e1.id}>My name is {e1.name} and i'm {e1.age} years old</li>
+            // <li key={e1.id}>My name is {e1.name} and i'm {e1.age} years old</li>
+            <p key={e1.id}>My name is {e1.name} and i'm {e1.age} years old</p>
             
         ))}
     </ul>

@@ -1,6 +1,6 @@
 
 import { createRoot } from 'react-dom/client'
-import App from './Map.jsx'
+import App from './ShowHide.jsx'
 import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(

@@ -25,14 +25,17 @@ let [login,setlogin]=useState(false)
     }
 
 let [color,setcolor]=useState(false)
+let [message,setmessage]=useState(false)
 
   return (
     <>
-    <div style={{height:"100px",width:"100px",backgroundColor:color?"black":"white"}}>
+    <div style={{height:"100px",width:"200px",backgroundColor:color?"black":"white"}}>
     </div>
     <button onClick={()=>{setcolor(!color)}}>{color?"Darkmode activated":"Lightmode activated"}</button>
     {ans}
     <button onClick={()=>{setlogin(!login)}}>{login ? "Light Mode" : "Dark Mode"}</button>
+    {message && <h1>Hello World</h1>}
+    <button onClick={()=>{setmessage(!message)}}>{message?"Hidemessage":"Showmessage"}</button>
     </>
   )
 }

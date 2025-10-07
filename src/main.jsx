@@ -13,12 +13,20 @@ let hobby=["reading","writing","singing"]
 
 let theme={
     dark:{
-        "background-color":"black",
-        "color":"white"
+        "background-color":"red",
+        "color":"white",
+        "height":"200px",
+        "width":"500px",
+        "text-align":"center",
+        "font-size":"50px"
     },
     light:{
         "background-color":"white",
-        "color":"black"
+        "color":"black",
+        "height":"200px",
+        "width":"500px",
+        "text-align":"center",
+        "font-size":"50px"
     }
 }
 
@@ -28,7 +36,7 @@ let num={
 }
 
 createRoot(document.getElementById('root')).render(
-    <mycontext.Provider value={{theme}}>
+    <mycontext.Provider value={theme}>
    <BrowserRouter>
     <App />
     </BrowserRouter>

@@ -1,7 +1,8 @@
-import React, { useCallback, useState } from 'react'
+
 import mycontext from './mycontext'
 import { createContext } from 'react'
 import { useContext } from 'react'
+import { useState } from 'react'
 
 
 
@@ -22,10 +23,13 @@ const Propdrilling = () => {
     <p>My hobby is {hobby[0]}</p>
     <p>sum of two num is {num.num1+num.num2}</p> */}
 
-    <div style={theme}>
-
-       <button onClick={()=>{setmytheme(mytheme?theme.dark:theme.light)}}>Click</button>
-    </div>
+    <div style={mytheme?theme.dark:theme.light}>
+      <h4>Hello Aditya</h4>
+     </div>
+    <button onClick={()=>{setmytheme(!mytheme)}}>Click</button>
+       
+       
+    
     </>
   )
 }

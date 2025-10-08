@@ -1,6 +1,6 @@
 
 import { createRoot } from 'react-dom/client'
-import App from './Propdrilling.jsx'
+import App from './useefect.jsx'
 import { BrowserRouter } from 'react-router-dom'
 import mycontext from './mycontext.jsx'
 let mydata={

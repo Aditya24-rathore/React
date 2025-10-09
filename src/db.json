@@ -1,0 +1,25 @@
+{
+    "hotel":[
+        {
+            "name":"Adi",
+            "age":20,
+            "city":"Bhopal",
+            "checkin":"20-09-25",
+            "checkout":"25-9-25",
+            "person":5,
+            "total":5000
+        },{"name":"Rohit",
+            "age":22,
+            "city":"Bhopal",
+            "checkin":"22-09-25",
+            "checkout":"29-9-25",
+            "person":2,
+            "total":2000},{"name":"Lakki",
+            "age":25,
+            "city":"indore",
+            "checkin":"3-09-25",
+            "checkout":"7-9-25",
+            "person":8,
+            "total":8000}
+    ]
+}

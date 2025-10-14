@@ -1,50 +1,12 @@
 {
   "hotel": [
     {
-      "name": "Lakki",
-      "age": 25,
-      "city": "indore",
-      "checkin": "3-09-25",
-      "checkout": "7-9-25",
-      "person": 8,
-      "total": 8000,
-      "id": "4f11"
-    },
-    {
-      "id": "6fc2",
-      "name": "",
-      "age": "",
-      "city": "",
-      "checkin": "",
-      "checkout": "",
-      "person": ""
-    },
-    {
-      "id": "1576",
       "name": "aditya",
-      "age": "23",
-      "city": "",
-      "checkin": "2025-10-15",
-      "checkout": "2025-10-25",
-      "person": "5"
-    },
-    {
-      "id": "b5a7",
-      "name": "aditya",
-      "age": "23",
-      "city": "",
-      "checkin": "2025-10-15",
-      "checkout": "2025-10-25",
-      "person": "5"
-    },
-    {
-      "id": "7f0d",
-      "name": "aditya",
-      "age": "23",
-      "city": "",
-      "checkin": "2025-10-15",
-      "checkout": "2025-10-25",
-      "person": "5"
+      "age": "20",
+      "checkin": "2025-10-26",
+      "checkout": "2025-10-26",
+      "person": "5",
+      "id": "1576"
     }
   ]
 }

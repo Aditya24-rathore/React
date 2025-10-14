@@ -1,6 +1,6 @@
 
 import { createRoot } from 'react-dom/client'
-import App from './Post.jsx'
+import App from './Crud.jsx'
 import { BrowserRouter } from 'react-router-dom'
 import mycontext from './mycontext.jsx'
 let mydata={

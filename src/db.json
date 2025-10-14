@@ -1,12 +1,22 @@
 {
   "hotel": [
     {
+      "id": "32da",
+      "name": "aman",
+      "age": "20",
+      "city": "Indore",
+      "checkin": "2025-10-25",
+      "checkout": "2025-10-26",
+      "person": "5"
+    },
+    {
+      "id": "e735",
       "name": "aditya",
       "age": "20",
-      "checkin": "2025-10-26",
+      "city": "",
+      "checkin": "2025-10-17",
       "checkout": "2025-10-26",
-      "person": "5",
-      "id": "1576"
+      "person": "2"
     }
   ]
 }

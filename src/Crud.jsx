@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 import { useEffect } from 'react'
+import { CiEdit } from "react-icons/ci";
+import { MdDelete } from "react-icons/md";
 const Crud = () => {
   const [data,setdata]=useState([])
   const[editid,seteditid]=useState(false)
@@ -31,6 +33,8 @@ const Crud = () => {
     const handleupdate=(e)=>{
       e.preventDefault()
       axios.put(`http://localhost:3000/hotel/${editid.id}`,formdata)
+      getdata()
+      seteditid(null)
     }
 
     const changeinp=(e)=>{
@@ -64,8 +68,9 @@ const Crud = () => {
               <td>{e.name}</td>
               <td>{e.age}</td>
               <td>{e.city}</td>
-              <td><button onClick={()=>{del(e.id)}}>Delete</button></td>
-              <td><button onClick={()=>{openform(e)}}>Edit</button></td>
+              <td><button onClick={()=>{del(e.id)}}><MdDelete /></button></td>
+              <td><button onClick={()=>{openform(e)}}><CiEdit />
+</button></td>
              </tr>
     
             ))
@@ -85,7 +90,7 @@ const Crud = () => {
         Enter checkin : <input type="date" name='checkin' value={formdata.checkin} onChange={changeinp}/> <br /><br />
         Enter checkout : <input type="date" value={formdata.checkout} name='checkout' onChange={changeinp}/> <br /><br />
         Enter person : <input type="text" value={formdata.person} name='person' onChange={changeinp} /> <br /><br />
-        <button type='submit'>Book now</button>
+        <button type='submit'>Update now</button>
     </form>)
         }
     </div>
